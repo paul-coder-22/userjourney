@@ -687,7 +687,8 @@ const CPQ_User = ({ cardName, timeUpdater, guid, colorSetter }) => {
                                         <FontAwesomeIcon
                                             icon={userData_Custom['Response time']?.current > userData_Custom['Response time']?.prev ? faCaretUp : faCaretDown}
                                             size="2x"
-                                            className={pageClassNames('Response time')}
+                                            // className={pageClassNames('Response time')}
+                                            style={{ color: "green" }}
                                         />
                                     </Col>
                                     <Col sm={4} className='text-center'>
@@ -715,7 +716,8 @@ const CPQ_User = ({ cardName, timeUpdater, guid, colorSetter }) => {
                                                     : faCaretDown
                                             }
                                             size="2x"
-                                            className={pageClassNames('Synthetic availability')}
+                                            // className={pageClassNames('Synthetic availability')}
+                                            style={{ color: "green" }}
                                         />
                                     </Col>
                                     <Col sm={4} className='text-center'>
@@ -743,7 +745,8 @@ const CPQ_User = ({ cardName, timeUpdater, guid, colorSetter }) => {
                                                     : faCaretDown
                                             }
                                             size="2x"
-                                            className={pageClassNames('End user experience')}
+                                            // className={pageClassNames('End user experience')}
+                                            style={{ color: "green" }}
                                         />
                                     </Col>
                                     <Col sm={4} className='text-center'>
@@ -770,7 +773,8 @@ const CPQ_User = ({ cardName, timeUpdater, guid, colorSetter }) => {
                                                 ? faCaretUp
                                                 : faCaretDown}
                                             size="2x"
-                                            className={pageClassNames('Login Page')}
+                                            // className={pageClassNames('Login Page')}
+                                            style={{ color: "green" }}
                                         />
                                     </Col>
                                     <Col sm={4} className='text-center'>
@@ -798,7 +802,8 @@ const CPQ_User = ({ cardName, timeUpdater, guid, colorSetter }) => {
                                                     : faCaretDown
                                             }
                                             size="2x"
-                                            className={pageClassNames('Partner Authentication')}
+                                            // className={pageClassNames('Partner Authentication')}
+                                            style={{ color: "green" }}
                                         />
                                     </Col>
                                     <Col sm={4} className='text-center'>
@@ -828,7 +833,8 @@ const CPQ_User = ({ cardName, timeUpdater, guid, colorSetter }) => {
                                                     : faCaretDown
                                             }
                                             size="2x"
-                                            className={pageClassNames('Home Page')}
+                                            // className={pageClassNames('Home Page')}
+                                            style={{ color: "green" }}
                                         />
                                     </Col>
                                     <Col sm={4} className='text-center'>
