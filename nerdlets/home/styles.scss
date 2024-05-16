@@ -1,0 +1,67 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+
+$border-dark: black;
+$red-background:rgba(255, 0, 0, 0.571);
+$light-green:#01a76a;
+$yellow-background:ffd23d;
+$gray-background:#9ea5a9;
+$white-background: white;
+$red-color:f5554b;
+
+*{
+  font-size: medium;
+  font-weight: 4  00;
+}
+
+.aprtTwoItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.listItemCustomPadding {
+  padding: 0.5rem 0rem !important;
+}
+.dangerColor {
+  background-color: $red-color;
+}
+
+.lightGreenBackground {
+  background-color: $light-green !important;
+  color: $white-background !important;
+  font-weight: 600;
+  font-size: large;
+}
+.yellowBackground {
+  background-color: $yellow-background !important;
+  color: $border-dark !important;
+  font-weight: 600;
+  font-size: large;
+}
+.grayBackground {
+  background-color: $gray-background !important;
+  color: $white-background !important;
+  font-weight: 600;
+  font-size: large;
+}
+.redBackground {
+  background-color: $red-background !important;
+  color: $border-dark !important;
+  font-weight: 600;
+  font-size: large;
+}
+.text-center{
+  cursor: pointer;
+}
+.red{
+  color: red;
+}
+.green{
+  color: $light-green;
+}
+.yellow{
+  color: yellow;
+}
+.gray{
+  color: gray;
+}
